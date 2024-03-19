@@ -1,0 +1,346 @@
+
+
+.TataCompany{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 0%;
+    text-align: center;
+    height: 70px;
+    width: 1527px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.About{
+    margin-left: 350px;
+}
+
+.Logo{
+    height: 70px;
+    width: 100px;
+}
+
+.About,.Techno,.Members,.TataModel{
+    height: 100px;
+    width: 200px;
+    
+    
+}
+
+.EVModel{
+    height: 507px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+#ShowModel{
+
+    
+    height: 511px;
+    width: 790px;
+    
+}
+
+
+.Model{
+    height: 1300px;
+    height: 700px;
+    text-align: center;
+    margin-left: 62px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.TataWebPage{
+    height: 1000px;
+    width: 1526px;
+}
+
+.DetailsEV{
+
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    height: 580px;
+    width: 1300px;
+    background-color: bisque;
+    margin-left: 60px;
+}
+
+.Description{
+
+    margin-left: 150px;
+    margin-top: 30px;
+    text-align: left;
+    height: 507px;
+    width: 770px;
+    
+}
+
+.Electric{
+
+    color: blue;
+    font-size: 3rem;
+}
+
+.CarHeading{
+    font-size: 4rem;
+    font-weight:bolder;
+}
+
+.DetailDescription{
+
+    text-align: left;
+    margin-left: 5px;
+    font-size: 1.5rem;
+}
+
+
+
+
+.ColorChange{
+
+    display: flex;
+    gap: 70px;
+    height:170px;
+    width:700px;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+#LoginToAddCar{
+    margin-left: 1100px;
+}
+
+.Red{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: red;
+    border: none;
+    margin-left: 130px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.White{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.Cream{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: wheat;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.Blue{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color:rgb(20, 0, 55);
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.Black{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: black;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Red:hover {
+    box-shadow: 2px 2px 10px rgba(0.2, 0.4, 0.6, 0.7);
+}
+
+.White:hover {
+    box-shadow: 2px 2px 10px rgba(0.2, 0.4, 0.6, 0.7);
+}
+
+.Black:hover {
+    box-shadow: 2px 2px 10px rgba(0.2, 0.4, 0.6, 0.7);
+}
+
+.Cream:hover {
+    box-shadow: 2px 2px 10px rgba(0.2, 0.4, 0.6, 0.7);
+}
+
+.Blue:hover {
+    box-shadow: 2px 2px 10px rgba(0.2, 0.4, 0.6, 0.7);
+}
+
+#InsideView{
+
+    margin-left: 170px;
+    height: 450px;
+    width: 660px;
+    
+}
+
+#Stearing{
+
+    
+    height: 450px;
+    width: 700px;
+    margin-left: 70px;
+    
+}
+#BackSide{
+
+    
+    height: 450px;
+    width: 700px;
+    
+}
+
+
+#SideView{
+
+    margin-left:170px ;
+    height: 450px;
+    width: 700px;
+    
+}
+
+.Insights{
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.DoorView,.SideAngleView,.BackView,.StearingView{
+    text-align: left;
+    margin-top: 150px;
+}
+
+#Look1,#Look2,#Look3{
+    font: bold;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-left: 113px;
+    color: white;
+}
+
+#Look4{
+    font: bold;
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    margin-left:100px;
+}
+
+
+
+.View1{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    background-color: chocolate;
+    height: 450px;
+    width: 1300px;
+    margin-left: 121px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.View2{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: 121px;
+    height: 450px;
+    width: 1300px;
+    background-color:cadetblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.View3{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 100px;
+    height: 450px;
+    width: 1300px;
+    margin-left: 121px;
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.View4{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    height: 450px;
+    width: 1300px;
+    margin-left: 121px;
+    background-color:darkslategrey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.VideoSection{
+    height: 560px;
+    width: 1040px;
+    background-color: cornsilk;
+    margin-left: 221px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#SearchType{
+    height: 40px;
+    width:220px;
+}
+
+#SearchModel{
+    height: 40px;
+    width:220px;
+}
+
+
+#SearchCar{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    
+}
+
+#LoginToAddCar{
+    margin-inline-start:initial ;
+}
+
+
+.AddCarInput{
+
+    flex-direction: column;
+    height: auto;
+    width: 700px;
+    margin-left: 250px;
+    background-color: darkslategray;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 50px;
+    
+}
+

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./TATA.css">
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/FrontEndScripts/onclickLogo.js"></script>
+    <script src="./GetVehicle.js"></script>
+    <script src="./LogToAddCar.js"></script>
+    <script src="/node_modules/axios/dist/axios.min.js"></script>
+    <script src="./FeatureShow.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="TataWebPage">
+    <div class="TataCompany">
+
+        <div class="Logo">
+            <img class="Logo" src="/logos/TataMotors.jpg" alt="TataLogo">
+        </div>
+
+        <div class="About">
+            <h3>About Us</h3>
+        </div>
+
+        <div class="TataModel">
+            <h3>TataModels</h3>
+        </div>
+
+        <div class="Members">
+            <h3>Members</h3>
+        </div>
+
+        <div class="Techno">
+            <h3>Technology</h3>
+        </div>
+
+        
+    </div>
+
+    <br>
+    <br>
+
+    <div id="SearchCar">
+        <select class="form-control" name="Search" id="SearchType">
+            <option value="InitialSearch">Search for Type Of Vehicle </option>
+            <option value="EV">EV</option>
+            <option value="PV">PV</option>
+            <option value="CV">CV</option>
+        </select>
+
+        <select class="form-control"  name="Search" id="SearchModel">
+            <option value="InitialSearch">Model Name </option>
+            <option value="Nexon">Nexon</option>
+            <option value="Harrier">Harrier</option>
+            <option value="Safari">Safari</option>
+        </select>
+
+        
+        <button class="btn btn-warning" id="GetCar">Search</button>
+        <button class="btn btn-success" id="LoginToAddCar">AddNewCar</button>
+
+        
+    </div>
+    
+    
+
+    <div class="Model">
+
+        
+
+        
+
+        <h1 >Introducing the New <span id="ModelName">Nexon</span> EV</h1>
+        <br>
+
+        <div class="DetailsEV">
+            <div class="Description">
+                <div class="Electric">Electric</div>
+                <div class="CarHeading">Nexon.ev</div>
+                <div class="DetailDescription">
+                    <span class="text"> Explore, test drive, configure and book your own </span> <br>
+                    <span class="ModelName"> Nexon.ev </span> <br>
+                    <span class="Price"> Starts at ₹ <span id="CarPrice">14.49 Lakh</span>* </span><br>
+                    <span>Can Travel upto a Distance of </span><span class="Distance">16km</span><span>/1L</span>
+                </div>
+            </div>
+
+        
+            <div class="EVModel">
+                <img id="ShowModel" src="./TataImages/NexonEVWhite.webp" alt="EVModel">
+                
+                
+                <div class="ColorChange">
+                    <button class="Red"></button>
+    
+                    <button class="White"></button>
+    
+                    <button class="Cream"></button>
+    
+                    <button class="Blue"></button>
+    
+                    <button class="Black"></button>
+                </div>
+
+            </div>
+        
+    
+        </div>
+
+    </div>
+    
+    <br><br>
+
+    <div class="VideoSection" >
+        <h1 style="margin-left: 370px;">New Generation of EV </h1><br><br>
+
+        <video width="1040" height="460" controls>
+        
+            <source id="Video" src="/videos/The game-changer unveils _ All-new Nexon.ev.mp4" type="video/mp4">
+        
+        </video>
+    </div>
+    <br><br>
+
+    
+
+    <div class="Insights">
+        <h1 style="margin-left: 500px; margin-top: 250px;">Insights of TATA NEXON.EV</h1>
+        <div class="View1">
+            <img id="InsideView" src="./TataImages/DoorView.webp" alt="InsideLook">
+            <div class="DoorView">
+                
+                <span id="Look1" > DoorSideView </span> <br>
+                
+            </div>
+        </div>
+
+        <div class="View2">
+
+            <div class="BackView">
+                
+                <span id="Look2" > BackSideView</span> <br>
+                
+            </div>
+            <img id="BackSide" src="./TataImages/BackSide1.webp" alt="Look1">
+            
+        </div>
+
+        <div class="View3">
+            <img id="SideView" src="./TataImages/SideView.jpg" alt="Look2">
+            <div class="SideAngleView">
+                
+                <span id="Look3">SideView</span> <br>
+                
+            </div>
+        </div>
+
+        <div class="View4">
+            <div class="StearingView">
+                <span id="Look4"> Driver Seat</span> <br>
+                
+            </div>
+            <img id="Stearing" src="./TataImages/Stearing.webp" alt="Look3">
+            
+        </div>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>

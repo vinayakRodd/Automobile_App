@@ -1,0 +1,58 @@
+
+
+#Heading{
+    margin-left: 500px;
+}
+
+
+
+img{
+    
+    height: 700px;
+    width: 1200px;
+    margin-left: 150px;
+    
+}
+
+
+.EvInfo{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 230px;
+    margin-top: 300px;
+}
+
+
+.TM,.MM,.TL,.VW,.HY,.SKD,.MS,.byd,.LBG,.JLR{
+    text-align: center;
+    margin-left: 30px;
+    display: block;
+    height: 160px;
+    width: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#Tata,#MMH,#Volks,#TeslaMtrs,#Skoda,#Hyundai,#MaruSuzu,#BYD,#lambor,#jlr{
+
+    height: 160px;
+    width: 160px;
+    margin: 0px;
+}
+
+#TeslaEV,#Mahindra,#tata,#Hunda,#SkodaEV,#BYDEV,#JaguarLandroverEV{
+
+    
+    margin-top: 20px;
+    font-size:2rem ;
+}
+
+#LambGhiniEV,#MarSux,#Wagen{
+    
+    margin-top: 20px;
+    font-size:2rem ;
+}
+
+
+
